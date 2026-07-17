@@ -134,68 +134,60 @@ export default function Home() {
         ];
     return (
         <>
-         <FontStyle />
-         <div className="relative w-full min-h-screen bg-[rgb(0,0,0)] flex items-center justify-center overflow-hidden font-handdrawn selection:bg-yellow-200">
-            {/* Central Core: Name + Rayburst Graphic */}
-            <div className="relative z-10 flex flex-col items-center justify-center text-center p-4 "></div>
-           {/* Handdrawn Rayburst Background */}
-           <div className="absolute w-[290px] h-[290px] md:w-[380px] md:h-[380px] pointer-events-none opacity-90">
-            <svg viewBox="0 0 200 200" className="w-full h-full animate-[spin_60s_linear_infinite]">
-              {/* Top and Bottom rays */}
-              <line x1="100" y1="25" x2="100" y2="10" stroke="#e76f51" strokeWidth="3" strokeLinecap="round" />
-              <line x1="100" y1="175" x2="100" y2="190" stroke="#2a9d8f" strokeWidth="3" strokeLinecap="round" />
-              
-              {/* Left and Right rays */}
-              <line x1="25" y1="100" x2="10" y2="100" stroke="#e9c46a" strokeWidth="3" strokeLinecap="round" />
-              <line x1="175" y1="100" x2="190" y2="100" stroke="#f4a261" strokeWidth="3" strokeLinecap="round" />
-              
-              {/* Diagonal and Accent rays to match the original style */}
+            <FontStyle />
+            <div className="relative w-full min-h-screen bg-[rgb(0,0,0)] flex items-center justify-center overflow-hidden font-handdrawn selection:bg-yellow-200">
+                {/* Central Core: Name + Rayburst Graphic */}
+                <div className="relative z-10 flex flex-col items-center justify-center text-center p-4 "></div>
+                {/* Handdrawn Rayburst Background */}
+                <div className="absolute w-[290px] h-[290px] md:w-[380px] md:h-[380px] pointer-events-none opacity-90">
+                    <svg viewBox="0 0 200 200" className="w-full h-full animate-[spin_60s_linear_infinite]">
+                    {/* Top and Bottom rays */}
+                    <line x1="100" y1="25" x2="100" y2="10" stroke="#e76f51" strokeWidth="3" strokeLinecap="round" />
+                    <line x1="100" y1="175" x2="100" y2="190" stroke="#2a9d8f" strokeWidth="3" strokeLinecap="round" />
                     
-              {/* Diagonal and Accent rays to match the original style */}
-              <line x1="45" y1="45" x2="35" y2="35" stroke="#e76f51" strokeWidth="3" strokeLinecap="round" />
-              <line x1="155" y1="155" x2="165" y2="165" stroke="#a8dadc" strokeWidth="3" strokeLinecap="round" />
-              <line x1="155" y1="45" x2="165" y2="35" stroke="#2a9d8f" strokeWidth="3" strokeLinecap="round" />
-              <line x1="45" y1="155" x2="35" y2="165" stroke="#e9c46a" strokeWidth="3" strokeLinecap="round" />
+                    {/* Left and Right rays */}
+                    <line x1="25" y1="100" x2="10" y2="100" stroke="#e9c46a" strokeWidth="3" strokeLinecap="round" />
+                    <line x1="175" y1="100" x2="190" y2="100" stroke="#f4a261" strokeWidth="3" strokeLinecap="round" />
+                    
+                    {/* Diagonal and Accent rays to match the original style */}
+                            
+                    {/* Diagonal and Accent rays to match the original style */}
+                    <line x1="45" y1="45" x2="35" y2="35" stroke="#e76f51" strokeWidth="3" strokeLinecap="round" />
+                    <line x1="155" y1="155" x2="165" y2="165" stroke="#a8dadc" strokeWidth="3" strokeLinecap="round" />
+                    <line x1="155" y1="45" x2="165" y2="35" stroke="#2a9d8f" strokeWidth="3" strokeLinecap="round" />
+                    <line x1="45" y1="155" x2="35" y2="165" stroke="#e9c46a" strokeWidth="3" strokeLinecap="round" />
 
-              <line x1="70" y1="20" x2="73" y2="32" stroke="#a8dadc" strokeWidth="3" strokeLinecap="round" />
-              <line x1="130" y1="20" x2="127" y2="32" stroke="#e76f51" strokeWidth="3" strokeLinecap="round" />
-              <line x1="70" y1="180" x2="73" y2="168" stroke="#fbc3bc" strokeWidth="3" strokeLinecap="round" />
-              <line x1="130" y1="180" x2="127" y2="168" stroke="#ff8da1" strokeWidth="3" strokeLinecap="round" />
-            </svg>
-          </div>
-            {/* <h1 className="relative flex flex-col text-center select-none">
-            <span className="text-4xl md:text-6xl font-bold tracking-[0.15em] text-[#111111] leading-none transform -rotate-1">
-              JENNIFER
-            </span>
-            <span className="text-4xl md:text-6xl font-bold tracking-[0.2em] text-[#111111] mt-2 leading-none transform rotate-1 ml-2">
-              XIAO
-            </span>
-          </h1> */}
-          <img src={HeroImage} alt="hero-image" className='w-53' />
-          <h1 className='text-2xl md:text-4xl font-bold text-white'>Joella's Art</h1>
-        </div>
+                    <line x1="70" y1="20" x2="73" y2="32" stroke="#a8dadc" strokeWidth="3" strokeLinecap="round" />
+                    <line x1="130" y1="20" x2="127" y2="32" stroke="#e76f51" strokeWidth="3" strokeLinecap="round" />
+                    <line x1="70" y1="180" x2="73" y2="168" stroke="#fbc3bc" strokeWidth="3" strokeLinecap="round" />
+                    <line x1="130" y1="180" x2="127" y2="168" stroke="#ff8da1" strokeWidth="3" strokeLinecap="round" />
+                    </svg>
+                </div>
+            
+                <img src={HeroImage} alt="hero-image" className='w-53' />
+                <h1 className='text-2xl md:text-4xl font-bold text-white'>Joella's Art</h1>
+            </div>
 
-        {/* Circular Menu Navigation Items */}
-        <div className="absolute inset-0 max-w-6xl mx-auto pointer-events-none"></div>
-        {items.map((item) => (
-            <button
-              key={item.id}
-              className={`absolute ${item.positionClass} pointer-events-auto group flex flex-col items-center justify-center cursor-pointer transition-transform duration-300 active:scale-95`}
-            >
-              {/* Icon Container with Playful Floating Animation & Hover Wobble */}
-              <div className={`transform transition-all duration-300 ease-out group-hover:scale-110 group-hover:rotate-6 animate-float ${item.delay}`}>
-                {item.icon}
-              </div>
+            {/* Circular Menu Navigation Items */}
+            <div className="absolute inset-0 max-w-6xl mx-auto pointer-events-none"></div>
+                {items.map((item) => (
+                <button
+                    key={item.id}
+                    className={`absolute ${item.positionClass} pointer-events-auto group flex flex-col items-center justify-center cursor-pointer transition-transform duration-300 active:scale-95`}
+                >
+                {/* Icon Container with Playful Floating Animation & Hover Wobble */}
+                <div className={`transform transition-all duration-300 ease-out group-hover:scale-110 group-hover:rotate-6 animate-float ${item.delay}`}>
+                    {item.icon}
+                </div>
 
-              {/* Label */}
-              <span className="mt-2 text-sm md:text-base font-bold tracking-widest text-white select-none transition-colors duration-200 group-hover:text-[#cf9fff]">
-                {item.label}
-              </span>
-            </button>
-          ))}
-        </div>
-        
-         </div>
-        </>
+                {/* Label */}
+                <span className="mt-2 text-sm md:text-base font-bold tracking-widest text-white select-none transition-colors duration-200 group-hover:text-[#cf9fff]">
+                    {item.label}
+                </span>
+                </button>
+            ))}
+            </>
+            {/* </div> */}
+        {/* </div> */}
     );
 }
