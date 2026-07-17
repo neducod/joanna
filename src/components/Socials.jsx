@@ -1,7 +1,7 @@
 import React from 'react';
 import SocialHero from '../assets/socialmedia.jpeg'
-import SocialsOne from '../assets/socialsOne'
-import SocialsTwo from '../assets/socialsTwo'
+import SocialsTwo from '../assets/socialsTwo.jpeg'
+import SocialsThree from '../assets/SocialsThree.jpeg'
 import { FaInstagram } from "react-icons/fa";
 
 import { CgMenuRight } from "react-icons/cg";
@@ -45,14 +45,18 @@ function Home() {
                 <FaWhatsapp />
             </section>
 
-            <section>
+            <section className='flex'>
                 <div>
-                    <img src={SocialsOne} alt="" />
-                    <img src={SocialsTwo} alt="" />
+                    <a href="https://www.instagram.com/joellarts._/">
+                        <img src={SocialsTwo} alt="" />
+                    </a>
                 </div>
-                <div></div>
+                <div>
+                    <a href="https://www.instagram.com/jerome_chigozie/">
+                        <img src={SocialsThree} alt="" />
+                    </a>
+                </div>
             </section>
-        <h1>hi</h1>
         </>
     )
 }
