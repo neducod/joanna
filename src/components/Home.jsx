@@ -1,6 +1,6 @@
 import React from 'react';
 // import './App.css'
-
+import HeroImage from './assets/heroImage.jpeg'
 
 
 function Home() {
