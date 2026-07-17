@@ -52,19 +52,19 @@ function Home() {
                 </div>
             </nav>
 
-            <section className='bg-black text-white'>
-                <h2>LET'S CONNECT</h2>
+            <section className='bg-black text-white flex justify-center flex-col items-center p-20'>
+                <h2 className='text-4xl italic'>LET'S CONNECT</h2>
                 <img src={SocialHero} alt="" className='w-40' />
-                <p>Joella's Art</p>
+                <p>Joella's Art ᥫ᭡️</p>
             </section>
 
-            <section className='bg-black'>
-                <FaInstagram />
-                <IoLogoTiktok />
-                <FaWhatsapp />
+            <section className='bg-black flex gap-4 p-10 justify-end'>
+                <FaInstagram className='text-pink-400' size={27}/>
+                <IoLogoTiktok className='text-pink-400' size={27}/>
+                <FaWhatsapp className='text-pink-400' size={27}/>
             </section>
 
-            <section className='flex bg-black text-white'>
+            <section className='bg-black text-white flex gap-6 justify-center'>
                 <div>
                     <a href="https://www.instagram.com/joellarts._/">
                         <img src={SocialsTwo} alt="" />
