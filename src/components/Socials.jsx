@@ -2,6 +2,7 @@ import React from 'react';
 import SocialHero from '../assets/socialmedia.jpeg'
 import SocialsTwo from '../assets/socialsTwo.jpeg'
 import SocialsThree from '../assets/SocialsThree.jpeg'
+import SocialsFour from '../assets/socialsFour.jpeg'
 import { FaInstagram } from "react-icons/fa";
 
 import { CgMenuRight } from "react-icons/cg";
@@ -54,6 +55,11 @@ function Home() {
                 <div>
                     <a href="https://www.instagram.com/jerome_chigozie/">
                         <img src={SocialsThree} alt="" />
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.tiktok.com/@j0an25">
+                        <img src={SocialsFour} alt="" />
                     </a>
                 </div>
             </section>
