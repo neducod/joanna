@@ -48,18 +48,15 @@ const AestheticProfilePage = () => {
       >
         
         {/* --- Top Left Hibiscus and "made with love" --- */}
-        <img src={assets.flower_top} alt="hibiscus" className="absolute top-4 left-4 w-20" />
-        <div className="absolute top-4 right-10 text-xl font-medium">
-          <span className="font-sans text-lg">made with love, </span>
-          <span className="font-bold">Kimaya&lt;3</span>
-        </div>
+        {/* <img src={assets.flower_top} alt="hibiscus" className="absolute top-4 left-4 w-20" /> */}
+        <p className='absolute top-4 left-4w-20'>⋆.˚🦋༘⋆</p>
 
         {/* --- Header: "about Kimaya" --- */}
         <div className="w-full text-center mt-12 mb-8">
-          <p className="text-4xl">about</p>
+          <p className="text-2xl">about</p>
           <div className="relative inline-block mt-[-10px]">
             {/* The main title */}
-            <h1 className="text-9xl font-bold text-pink-500 drop-shadow-lg tracking-tighter">Kimaya</h1>
+            <h1 className="text-9xl font-bold text-pink-500 drop-shadow-lg tracking-tighter">Joanna</h1>
             {/* Red accent line/stars around the name */}
             <div className="absolute -top-1 -right-8 text-6xl text-red-600 rotate-[15deg]">🌟</div>
             <div className="absolute -bottom-1 -left-8 text-6xl text-red-600 -rotate-[15deg]">🌟</div>
@@ -73,23 +70,23 @@ const AestheticProfilePage = () => {
           <div className="flex-1 space-y-6 text-2xl pr-10 text-right">
             <div className="relative inline-block">
               <span className="absolute -left-6 top-1 text-red-600 text-3xl">*</span>
-              <p>Lifestyle content creator</p>
+              {/* <p>Lifestyle content creator</p> */}
             </div>
-            <p className="flex items-center justify-end gap-2">
-              <img src={assets.lightbulb} alt="lightbulb" className="w-8" />
-              <span className="underline decoration-red-600 decoration-2">Advertising</span> Student
+            <p className="flex items-center justify-end gap-2 flex-col">
+              <p className='w-8'>💡</p>
+              <span className="underline decoration-red-600 decoration-2">Business Admin</span> Student
             </p>
-            <p className="flex items-center justify-end gap-2">
-              <img src={assets.paw_print} alt="paw print" className="w-8" />
-              Loves dogs <span className="text-xl">(a lot)</span>
+            <p className="flex items-center justify-start gap-2">
+              <p className='w-8'>⋆˚🐾˖°</p>
+              Loves dogs
             </p>
-            <p>Way too <span className="underline decoration-red-600 decoration-2">dramatic</span> sometimes</p>
+            <p>Passionate <span className="underline decoration-red-600 decoration-2">about</span> music</p>
             <p className="relative">
               Camera is her <span className="underline decoration-red-600 decoration-2">Bestfriend</span>
-              <img src={assets.camera_vintage} alt="vintage camera" className="absolute -bottom-16 right-0 w-24 z-10" />
+              <p className='absolute -bottom-16 right-0 w-24 z-10'></p>
             </p>
             <p className="flex items-center justify-end gap-2 mt-20">
-              <img src={assets.paper_airplane} alt="paper airplane" className="w-8" />
+              {/* <img src={assets.paper_airplane} alt="paper airplane" className="w-8" /> */}
               Dreaming of travelling the world
             </p>
           </div>
@@ -121,7 +118,7 @@ const AestheticProfilePage = () => {
             </p>
             <p className="relative inline-block">
               <span className="underline decoration-red-600 decoration-2">Sunflower</span> Energy
-              <img src={assets.sunflower} alt="sunflower" className="absolute -right-16 top-1/2 -translate-y-1/2 w-12" />
+              {/* <img src={assets.sunflower} alt="sunflower" className="absolute -right-16 top-1/2 -translate-y-1/2 w-12" /> */}
             </p>
             <p className="relative">
               <span className="absolute -right-8 bottom-0 text-3xl text-red-600 rotate-[10deg]">✨</span>
@@ -140,10 +137,10 @@ const AestheticProfilePage = () => {
         <div className="absolute bottom-8 left-12 right-12 flex items-end justify-between text-2xl">
           
           {/* Microphone Icon */}
-          <img src={assets.microphone} alt="microphone" className="w-20" />
+          {/* <img src={assets.microphone} alt="microphone" className="w-20" /> */}
 
           {/* Special Torn Paper Quote */}
-          <div 
+          {/* <div 
             className="w-[400px] h-[150px] relative p-6 -mb-6 flex items-center justify-center text-center text-3xl font-medium"
             style={{
               backgroundImage: `url(${assets.paper_background})`,
@@ -151,14 +148,18 @@ const AestheticProfilePage = () => {
             }}
           >
             <p>She writes what she feels and lets AI fix the commas</p>
-          </div>
+          </div> */}
 
           {/* French Fries, Reads... and Pinterest Always */}
           <div className="flex items-end gap-6 text-right">
-            <img src={assets.french_fries} alt="french fries" className="w-16" />
+            {/* <img src={assets.french_fries} alt="french fries" className="w-16" /> */}
             <div className="relative">
-              <p className="flex items-center gap-2">Reads sometimes, <img src={assets.french_fries} alt="fries icon" className="w-5" /></p>
-              <p>Pinterest always <span className="relative inline-block"><img src={assets.pushpin} alt="pushpin" className="absolute -bottom-2 -left-10 w-10 rotate-[-45deg]" /></span></p>
+              <p className="flex items-center gap-2">Reads sometimes, 
+              {/* <img src={assets.french_fries} alt="fries icon" className="w-5" /> */}
+              </p>
+              <p>Pinterest always <span className="relative inline-block">
+                {/* <img src={assets.pushpin} alt="pushpin" className="absolute -bottom-2 -left-10 w-10 rotate-[-45deg]" /> */}
+                </span></p>
             </div>
           </div>
         </div>
