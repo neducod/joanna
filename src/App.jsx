@@ -17,7 +17,7 @@
 
 
 
-// import {Routes, Route } from 'react-router-dom'
+import {Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import Comics from './components/Comics'
@@ -26,3 +26,20 @@ import Merch from './components/Merch'
 import Shop from './components/Shop'
 import Socials from './components/Socials'
 
+function App(){
+  return(
+    <>
+      <Routes>
+        {
+          <Route path='/' element={<Home/>} />
+        }
+
+      <Route path="/illustration" element={<Illustration />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/about" element={<About />} /> 
+      </Routes>
+    </>
+  )
+}
+
+export default App;
