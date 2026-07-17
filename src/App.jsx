@@ -17,6 +17,7 @@
 
 
 import React from 'react';
+import './App.css'
 import HeroImage from './assets/heroImage.jpeg'
 
 
@@ -152,7 +153,7 @@ export default function PortfolioNavigation() {
   return (
     <>
       <FontStyle />
-      <div className="relative w-full min-h-screen bg-[#ffffff] flex items-center justify-center overflow-hidden font-handdrawn selection:bg-yellow-200">
+      <div className="relative w-full min-h-screen bg-[rgb(0,0,0)] flex items-center justify-center overflow-hidden font-handdrawn selection:bg-yellow-200">
         
         {/* Central Core: Name + Rayburst Graphic */}
         <div className="relative z-10 flex flex-col items-center justify-center text-center p-4">
@@ -181,15 +182,14 @@ export default function PortfolioNavigation() {
             </svg>
           </div>
 
-          {/* Jennifer Xiao Name Plate */}
-          <h1 className="relative flex flex-col text-center select-none">
+          {/* <h1 className="relative flex flex-col text-center select-none">
             <span className="text-4xl md:text-6xl font-bold tracking-[0.15em] text-[#111111] leading-none transform -rotate-1">
               JENNIFER
             </span>
             <span className="text-4xl md:text-6xl font-bold tracking-[0.2em] text-[#111111] mt-2 leading-none transform rotate-1 ml-2">
               XIAO
             </span>
-          </h1>
+          </h1> */}
           <img src={HeroImage} alt="" />
         </div>
 
