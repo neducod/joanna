@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroImage from '../assets/heroImage.jpeg'
+import { Link } from 'react-router-dom'
 
 
 const FontStyle = () => (
@@ -25,6 +26,7 @@ export default function Home() {
         {
           id: 'comics',
           label: 'COMICS',
+          route: 'comics',
           positionClass: 'top-4 md:top-8 left-1/2 -translate-x-1/2',
           delay: 'delay-0',
           // Grid of multi-colored panels with a face
@@ -45,6 +47,7 @@ export default function Home() {
         {
             id: 'merchandise',
             label: 'MERCHANDISE',
+            route: 'merch',
             positionClass: 'top-20 md:top-28 right-4 md:right-20 lg:right-32',
             delay: 'delay-75',
             // Cute pink t-shirt with a face
@@ -60,6 +63,7 @@ export default function Home() {
         {
             id: 'social-media',
             label: 'SOCIAL MEDIA',
+            route: 'socials',
             positionClass: 'bottom-20 md:bottom-28 right-4 md:right-20 lg:right-32',
             delay: 'delay-150',
             // Cute smiling heart
@@ -78,6 +82,7 @@ export default function Home() {
         {
             id: 'shop',
             label: 'SHOP',
+            route: 'shop',
             positionClass: 'bottom-4 md:bottom-8 left-1/2 -translate-x-1/2',
             delay: 'delay-200',
             // Blue bag with slightly sad/cute face
@@ -93,6 +98,7 @@ export default function Home() {
         {
             id: 'about-contact',
             label: 'ABOUT/CONTACT',
+            route: 'about',
             positionClass: 'bottom-20 md:bottom-28 left-4 md:left-20 lg:left-32',
             delay: 'delay-300',
             // Cute sleeping bread/stack
@@ -111,6 +117,7 @@ export default function Home() {
         {
             id: 'illustration',
             label: 'ILLUSTRATION',
+            route: 'illustration',
             positionClass: 'top-20 md:top-28 left-4 md:left-20 lg:left-32',
             delay: 'delay-500',
             // Cute pencil pointing down
@@ -172,17 +179,17 @@ export default function Home() {
                 {items.map((item) => (
                 <Link
                     key={item.id}
-                    className={`absolute ${item.positionClass} pointer-events-auto group flex flex-col items-center justify-center cursor-pointer transition-transform duration-300 active:scale-95`}
-                >
-                {/* Icon Container with Playful Floating Animation & Hover Wobble */}
-                <div className={`transform transition-all duration-300 ease-out group-hover:scale-110 group-hover:rotate-6 animate-float ${item.delay}`}>
-                    {item.icon}
-                </div>
+                    to={item.route}
+                    className={`absolute ${item.positionClass} pointer-events-auto group flex flex-col items-center justify-center cursor-pointer transition-transform duration-300 active:scale-95`}>
+                    {/* Icon Container with Playful Floating Animation & Hover Wobble */}
+                    <div className={`transform transition-all duration-300 ease-out group-hover:scale-110 group-hover:rotate-6 animate-float ${item.delay}`}>
+                        {item.icon}
+                    </div>
 
-                {/* Label */}
-                <span className="mt-2 text-sm md:text-base font-bold tracking-widest text-white select-none transition-colors duration-200 group-hover:text-[#cf9fff]">
-                    {item.label}
-                </span>
+                    {/* Label */}
+                    <span className="mt-2 text-sm md:text-base font-bold tracking-widest text-white select-none transition-colors duration-200 group-hover:text-[#cf9fff]">
+                        {item.label}
+                    </span>
                 </Link>
             ))}
             </>
