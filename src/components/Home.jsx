@@ -1,6 +1,5 @@
 import React from 'react';
-// import './App.css'
-import HeroImage from './assets/heroImage.jpeg'
+import HeroImage from '../assets/heroImage.jpeg'
 
 
 const FontStyle = () => (
@@ -187,7 +186,5 @@ export default function Home() {
                 </button>
             ))}
             </>
-            {/* </div> */}
-        {/* </div> */}
     );
 }

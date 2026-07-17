@@ -17,7 +17,7 @@
 
 
 
-import {Routes, Route } from 'react-router-dom'
+// import {Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import Comics from './components/Comics'
@@ -27,65 +27,10 @@ import Shop from './components/Shop'
 import Socials from './components/Socials'
 
 
-import React from 'react';
-import './App.css'
-import HeroImage from './assets/heroImage.jpeg'
-
-
-// Dynamically inject the whimsical "Gaegu" hand-drawn style font
-const FontStyle = () => (
-  <style>{`
-    @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap');
-    .font-handdrawn {
-      font-family: 'Gaegu', cursive, sans-serif;
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-6px); }
-    }
-    .animate-float {
-      animation: float 4s ease-in-out infinite;
-    }
-  `}</style>
-);
 
 export default function PortfolioNavigation() {
   const items = [
-    {
-      id: 'comics',
-      label: 'COMICS',
-      positionClass: 'top-4 md:top-8 left-1/2 -translate-x-1/2',
-      delay: 'delay-0',
-      // Grid of multi-colored panels with a face
-      icon: (
-        <svg className="w-16 h-16 md:w-20 md:h-20 drop-shadow-md" viewBox="0 0 100 100">
-          <rect x="10" y="10" width="80" height="80" rx="8" fill="#e97451" stroke="#000" strokeWidth="4" />
-          <rect x="16" y="16" width="30" height="30" rx="4" fill="#fbc3bc" stroke="#000" strokeWidth="3" />
-          <rect x="54" y="16" width="30" height="30" rx="4" fill="#a8dadc" stroke="#000" strokeWidth="3" />
-          <rect x="16" y="54" width="30" height="30" rx="4" fill="#f4a261" stroke="#000" strokeWidth="3" />
-          <rect x="54" y="54" width="30" height="30" rx="4" fill="#e9c46a" stroke="#000" strokeWidth="3" />
-          {/* Small cute eyes/mouth in top right block */}
-          <circle cx="64" cy="28" r="2.5" fill="#000" />
-          <circle cx="74" cy="28" r="2.5" fill="#000" />
-          <path d="M 67 33 Q 69 35 71 33" stroke="#000" strokeWidth="2" fill="none" strokeLinecap="round" />
-        </svg>
-      )
-    },
-    {
-      id: 'merchandise',
-      label: 'MERCHANDISE',
-      positionClass: 'top-20 md:top-28 right-4 md:right-20 lg:right-32',
-      delay: 'delay-75',
-      // Cute pink t-shirt with a face
-      icon: (
-        <svg className="w-16 h-16 md:w-20 md:h-20 drop-shadow-md" viewBox="0 0 100 100">
-          <path d="M 20 30 L 35 20 L 42 27 L 50 22 L 58 27 L 65 20 L 80 30 L 73 45 L 68 43 L 68 80 L 32 80 L 32 43 L 27 45 Z" fill="#fbc3bc" stroke="#000" strokeWidth="4" strokeLinejoin="round" />
-          <circle cx="45" cy="48" r="2" fill="#000" />
-          <circle cx="55" cy="48" r="2" fill="#000" />
-          <path d="M 48 53 Q 50 55 52 53" stroke="#000" strokeWidth="2.5" fill="none" strokeLinecap="round" />
-        </svg>
-      )
-    },
+git a
     {
       id: 'social-media',
       label: 'SOCIAL MEDIA',
