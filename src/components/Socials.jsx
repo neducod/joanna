@@ -1,8 +1,12 @@
 import React from 'react';
-// import SocialMediaHero from 'joan-portfolio/src/assets/socialmedia.jpeg'
 import SocialHero from '../assets/socialmedia.jpeg'
+import SocialsOne from '../assets/socialsOne'
+import SocialsTwo from '../assets/socialsTwo'
+import { FaInstagram } from "react-icons/fa";
 
 import { CgMenuRight } from "react-icons/cg";
+import { IoLogoTiktok } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Home() {
     return (
@@ -33,6 +37,20 @@ function Home() {
                 <h2>LET'S CONNECT</h2>
                 <img src={SocialHero} alt="" />
                 <p>Joella's Art</p>
+            </section>
+
+            <section>
+                <FaInstagram />
+                <IoLogoTiktok />
+                <FaWhatsapp />
+            </section>
+
+            <section>
+                <div>
+                    <img src={SocialsOne} alt="" />
+                    <img src={SocialsTwo} alt="" />
+                </div>
+                <div></div>
             </section>
         <h1>hi</h1>
         </>
