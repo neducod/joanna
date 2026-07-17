@@ -141,7 +141,7 @@ export default function Home() {
     return (
         <>
             <FontStyle />
-            <div className="relative w-full min-h-screen bg-[rgb(0,0,0)] flex items-center justify-center overflow-hidden font-handdrawn selection:bg-yellow-200">
+            <div className="relative w-full min-h-screen bg-[rgb(0,0,0)] flex items-center flex-col justify-center overflow-hidden font-handdrawn selection:bg-yellow-200">
                 {/* Central Core: Name + Rayburst Graphic */}
                 <div className="relative z-10 flex flex-col items-center justify-center text-center p-4 "></div>
                 {/* Handdrawn Rayburst Background */}
