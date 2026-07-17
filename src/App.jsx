@@ -17,6 +17,8 @@
 
 
 import React from 'react';
+import HeroImage from './assets/heroImage.jpeg'
+
 
 // Dynamically inject the whimsical "Gaegu" hand-drawn style font
 const FontStyle = () => (
@@ -188,6 +190,7 @@ export default function PortfolioNavigation() {
               XIAO
             </span>
           </h1>
+          <img src={HeroImage} alt="" />
         </div>
 
         {/* Circular Menu Navigation Items */}
