@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../assets/heroImage.jpeg'
+// import HeroImage from '../assets/heroImage.jpeg'
 import { Link } from 'react-router-dom'
 
 
@@ -171,7 +171,7 @@ export default function Home() {
                     </svg>
                 </div>
             
-                <img src={HeroImage} alt="hero-image" className='w-53' />
+                {/* <img src={HeroImage} alt="hero-image" className='w-53' />. She said she doesn;'t like the image */}
                 <h1 className='text-2xl md:text-4xl font-bold text-white'>Joella's Art</h1>
             </div>
 
