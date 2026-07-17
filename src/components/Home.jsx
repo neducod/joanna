@@ -170,7 +170,7 @@ export default function Home() {
             {/* Circular Menu Navigation Items */}
             <div className="absolute inset-0 max-w-6xl mx-auto pointer-events-none"></div>
                 {items.map((item) => (
-                <button
+                <Link
                     key={item.id}
                     className={`absolute ${item.positionClass} pointer-events-auto group flex flex-col items-center justify-center cursor-pointer transition-transform duration-300 active:scale-95`}
                 >
@@ -183,7 +183,7 @@ export default function Home() {
                 <span className="mt-2 text-sm md:text-base font-bold tracking-widest text-white select-none transition-colors duration-200 group-hover:text-[#cf9fff]">
                     {item.label}
                 </span>
-                </button>
+                </Link>
             ))}
             </>
     );
