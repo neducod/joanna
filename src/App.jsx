@@ -156,7 +156,7 @@ export default function PortfolioNavigation() {
       <div className="relative w-full min-h-screen bg-[rgb(0,0,0)] flex items-center justify-center overflow-hidden font-handdrawn selection:bg-yellow-200">
         
         {/* Central Core: Name + Rayburst Graphic */}
-        <div className="relative z-10 flex flex-col items-center justify-center text-center p-4">
+        <div className="relative z-10 flex flex-col items-center justify-center text-center p-4 ">
           
           {/* Handdrawn Rayburst Background */}
           <div className="absolute w-[290px] h-[290px] md:w-[380px] md:h-[380px] pointer-events-none opacity-90">
@@ -190,7 +190,8 @@ export default function PortfolioNavigation() {
               XIAO
             </span>
           </h1> */}
-          <img src={HeroImage} alt="" />
+          <img src={HeroImage} alt="hero-image" className='w-53' />
+          <h1 className='text-2xl md:text-4xl font-bold text-white'>Joella's Art</h1>
         </div>
 
         {/* Circular Menu Navigation Items */}
@@ -206,7 +207,7 @@ export default function PortfolioNavigation() {
               </div>
 
               {/* Label */}
-              <span className="mt-2 text-sm md:text-base font-bold tracking-widest text-[#111111] select-none transition-colors duration-200 group-hover:text-amber-600">
+              <span className="mt-2 text-sm md:text-base font-bold tracking-widest text-white select-none transition-colors duration-200 group-hover:text-[#cf9fff]">
                 {item.label}
               </span>
             </button>
