@@ -112,6 +112,7 @@ export default function Home() {
                 <path d="M 41 33 Q 45 36 45 33" stroke="#000" strokeWidth="2.5" fill="none" strokeLinecap="round" />
                 <path d="M 55 33 Q 55 36 59 33" stroke="#000" strokeWidth="2.5" fill="none" strokeLinecap="round" />
               </svg>
+          
             )
         },
         {
