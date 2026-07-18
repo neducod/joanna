@@ -85,19 +85,19 @@ function Home() {
                             <img src={Tab} alt="" className='w-36'/>
                             <br />
                             <button class="px-2.5 py-1.25 mt-0.5 border-3 border-black shadow-[3px_3px_0_#000000] font-[750] bg-[#4ade80] cursor-pointer transition-all duration-300 ease-in-out hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0_#000000] hover:bg-[#1ac2ff] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
-                            Button
+                            Donate to buy
                             </button>
                         </div>
                     </div>
                     <div className='w-[300px] h-[250px] -translate-x-1.5 -translate-y-1.5 bg-[#ff66a3] border-3 border-black shadow-[12px_12px_0_#000000] overflow-hidden transition-all duration-300 ease-in-out hover:-translate-x-1.5 hover:translate-y-0'>
                         <div class="text-sm font-black w-full h-8 bg-white px-3 py-1.25 text-black border-b-3 border-black">
-                            <p>Hard cover</p>
+                            <p>Sketch Pads</p>
                         </div>
                         <div class="p-1.5 px-3 text-sm font-semibold">
                             <img src={Books} alt="" className='w-36' />
                             <br />
                             <button class="px-2.5 py-1.25 mt-0.5 border-3 border-black shadow-[3px_3px_0_#000000] font-[750] bg-[#4ade80] cursor-pointer transition-all duration-300 ease-in-out hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0_#000000] hover:bg-[#1ac2ff] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
-                            Button
+                            Donate to buy
                             </button>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ function Home() {
                             <img src={Pencils} alt="" className='w-20' />
                             <br />
                             <button class="px-2.5 py-1.25 mt-0.5 border-3 border-black shadow-[3px_3px_0_#000000] font-[750] bg-[#4ade80] cursor-pointer transition-all duration-300 ease-in-out hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0_#000000] hover:bg-[#1ac2ff] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
-                            Button
+                            Donate to buy
                             </button>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ function Home() {
                         <div class="p-1.5 px-3 text-sm font-semibold">
                             <img src={Headset} alt="" className='w-29' />
                             <button class="px-2.5 py-1.25 mt-2 border-3 border-black shadow-[3px_3px_0_#000000] font-[750] bg-[#4ade80] cursor-pointer transition-all duration-300 ease-in-out hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0_#000000] hover:bg-[#1ac2ff] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
-                            Button
+                            Donate to buy
                             </button>
                         </div>
                     </div>
