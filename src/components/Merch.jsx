@@ -12,6 +12,7 @@ import Tab from "../assets/tablet.jpeg"
 
 
 import Faq from "./Merchfaq";
+import Footer from "./Footer"
 
 
 function Home() {
@@ -131,6 +132,9 @@ function Home() {
             </section>
             <section>
                 <Faq/>
+            </section>
+            <section>
+                <Footer/>
             </section>
 
         </>
