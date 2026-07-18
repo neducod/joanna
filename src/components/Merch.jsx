@@ -5,6 +5,10 @@ import { WiShowers } from "react-icons/wi";
 import { LuSearchCheck } from "react-icons/lu";
 import { PiMoneyDuotone } from "react-icons/pi";
 
+import Headset from "../assets/headset.jpeg";
+import Books from "../assets/book.jpeg";
+import Pencils from "../assets/pencils.jpeg";
+import Tab from "../assets/tablet.jpeg"
 
 
 function Home() {
@@ -78,6 +82,7 @@ function Home() {
                             <p>Tablet</p>
                         </div>
                         <div class="p-2.5 px-3 text-sm font-semibold">
+                            <img src={Tab} alt="" className='w-40'/>
                             This is a neobrutalist-style window with a button and space for any content you want!
                             <br />
                             <button class="px-2.5 py-1.25 mt-2.5 border-3 border-black shadow-[3px_3px_0_#000000] font-[750] bg-[#4ade80] cursor-pointer transition-all duration-300 ease-in-out hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0_#000000] hover:bg-[#1ac2ff] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
@@ -90,6 +95,7 @@ function Home() {
                             <p>Hard cover</p>
                         </div>
                         <div class="p-2.5 px-3 text-sm font-semibold">
+                            <img src={Books} alt="" />
                             This is a neobrutalist-style window with a button and space for any content you want!
                             <br />
                             <button class="px-2.5 py-1.25 mt-2.5 border-3 border-black shadow-[3px_3px_0_#000000] font-[750] bg-[#4ade80] cursor-pointer transition-all duration-300 ease-in-out hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0_#000000] hover:bg-[#1ac2ff] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
@@ -102,6 +108,7 @@ function Home() {
                             <p>Pencils</p>
                         </div>
                         <div class="p-2.5 px-3 text-sm font-semibold">
+                            <img src={Pencils} alt="" />
                             This is a neobrutalist-style window with a button and space for any content you want!
                             <br />
                             <button class="px-2.5 py-1.25 mt-2.5 border-3 border-black shadow-[3px_3px_0_#000000] font-[750] bg-[#4ade80] cursor-pointer transition-all duration-300 ease-in-out hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0_#000000] hover:bg-[#1ac2ff] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
@@ -114,6 +121,7 @@ function Home() {
                             <p>Headsets</p>
                         </div>
                         <div class="p-2.5 px-3 text-sm font-semibold">
+                            <img src={Headset} alt="" />
                             This is a neobrutalist-style window with a button and space for any content you want!
                             <br />
                             <button class="px-2.5 py-1.25 mt-2.5 border-3 border-black shadow-[3px_3px_0_#000000] font-[750] bg-[#4ade80] cursor-pointer transition-all duration-300 ease-in-out hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0_#000000] hover:bg-[#1ac2ff] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
