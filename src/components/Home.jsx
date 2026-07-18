@@ -81,7 +81,7 @@ export default function Home() {
         },
         {
             id: 'shop',
-            label: 'SHOP',
+            label: 'WORK WITH ME',
             route: 'shop',
             positionClass: 'bottom-4 md:bottom-8 left-1/2 -translate-x-1/2',
             delay: 'delay-200',
