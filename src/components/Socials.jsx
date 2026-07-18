@@ -31,7 +31,7 @@ const FontStyle = () => (
 function Home() {
     return (
         <>
-            <nav className='bg-black text-white flex justify-around md:p-10'>
+            <nav className='bg-black text-white flex justify-around md:p-10 md:gap-20'>
                 <div>
                     <h1>Joella's Art</h1>
                 </div>
@@ -40,13 +40,14 @@ function Home() {
                         <CgMenuRight />
                     </div>
                     <div className='hidden md:block'>
-                        <ul className='flex gap-8'>
+                        <ul className='flex gap-10'>
                             <FontStyle/>
-                            <li>Comics</li>
-                            <li>Merchandise</li>
-                            <li>Shop</li>
                             <li>About</li>
+                            <li>Art Journey</li>
+                            <li>Support me</li>
+                            <li>Work with me</li>
                             <li>Social media</li>
+                            <li>Gallery</li>
                         </ul>
                     </div>
                 </div>
