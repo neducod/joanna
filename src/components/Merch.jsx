@@ -47,10 +47,24 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <LuSearchCheck />
-                    <p>See if there's any one that interest's you</p>
-                    <PiMoneyDuotone />
-                    <p>Make any donations to any of my account, even as little as 1USD</p>
+                    <div className='flex flex-col bg-white rounded-3xl'>
+                        <div className='px-6 py-8 sm:p-10 sm:pb-6'>
+                            <div className='grid items-center justify-center w-full grid-cols-1 text-left'>
+                                <LuSearchCheck />
+                                <h3 className='text-sm font-medium tracking-tighter text-gray-600 lg:text-lg'>See if there's any one that interest's you</h3>
+                                <p className='mt-2 text-sm text-gray-500'>See what i have been dreaming of</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-col bg-white rounded-3xl'>
+                        <div className='px-6 py-8 sm:p-10 sm:pb-6'>
+                            <div className='grid items-center justify-center w-full grid-cols-1 text-left'>
+                                <PiMoneyDuotone />
+                                <h3 className='text-sm font-medium tracking-tighter text-gray-600 lg:text-lg'>Make any donation </h3>
+                                <p className='mt-2 text-sm text-gray-500'>donations to any of my account, even as little as 1USD</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section className='flex justify-center items-center gap-4 flex-col p-10'>
