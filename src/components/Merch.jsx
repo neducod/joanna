@@ -131,13 +131,6 @@ function Home() {
             </section>
             <section>
                 <Faq/>
-                <h2>FAQ</h2>
-                <p>Have any questions about supporting me</p>
-                <div>
-                    <p>How can I help</p>
-                    <p>What do you plan on doing</p>
-                    <p>How do you plan on getting it</p>
-                </div>
             </section>
 
         </>

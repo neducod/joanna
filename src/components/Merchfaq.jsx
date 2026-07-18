@@ -3,17 +3,17 @@ import React, { useState } from 'react';
 const faqData = [
   {
     id: 1,
-    question: "What is Tailwind CSS?",
+    question: "How can I help?",
     answer: "Tailwind CSS is a utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup."
   },
   {
     id: 2,
-    question: "How do you handle animations in Tailwind?",
+    question: "What do you plan on doing with the money donated?",
     answer: "Tailwind includes built-in transition utilities (like transition-all, duration-300, and ease-in-out) that pair perfectly with React's state changes to create smooth, fluid animations."
   },
   {
     id: 3,
-    question: "Is this component accessible?",
+    question: "How do you plan on getting it?",
     answer: "Yes. It uses native <button> elements for keyboard navigation (Tab/Enter) and includes aria-expanded attributes to inform screen readers whether a section is open or closed."
   }
 ];
@@ -28,9 +28,10 @@ export default function FAQAccordion() {
 
   return (
     <div className="w-full max-w-2xl mx-auto p-4">
-      <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">
+      <h2 className="text-2xl font-bold text-slate-800 mb-4 text-center">
         Frequently Asked Questions
       </h2>
+      <p className='text-sm font-bold text-slate-800 mb-6 text-center'>Have any questions about supporting me</p>
       
       <div className="space-y-3">
         {faqData.map((faq) => {
