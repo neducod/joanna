@@ -25,7 +25,7 @@ export default function Home() {
     const items = [
         {
           id: 'comics',
-          label: 'COMICS',
+          label: 'ART JOURNEY',
           route: 'comics',
           positionClass: 'top-4 md:top-8 left-1/2 -translate-x-1/2',
           delay: 'delay-0',
@@ -46,7 +46,7 @@ export default function Home() {
         },
         {
             id: 'merchandise',
-            label: 'MERCHANDISE',
+            label: 'SUPPORT ME',
             route: 'merch',
             positionClass: 'top-20 md:top-28 right-4 md:right-20 lg:right-32',
             delay: 'delay-75',
@@ -117,7 +117,7 @@ export default function Home() {
         },
         {
             id: 'illustration',
-            label: 'ILLUSTRATION',
+            label: 'GALLERY',
             route: 'illustration',
             positionClass: 'top-20 md:top-28 left-4 md:left-20 lg:left-32',
             delay: 'delay-500',
