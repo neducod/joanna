@@ -12,7 +12,7 @@ import Tab from "../assets/tablet.jpeg"
 
 
 import Faq from "./Merchfaq";
-import Footer from "./Footer"
+// import Footer from "./Footer"'
 
 
 function Home() {
@@ -134,7 +134,7 @@ function Home() {
                 <Faq/>
             </section>
             <section>
-                <Footer/>
+                {/* <Footer/> */}
             </section>
 
         </>
