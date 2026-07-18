@@ -35,15 +35,15 @@ function Home() {
                 <h2 className='text-3xl w-3xl'>Hello, you could be part of bringing my dreams to reality</h2>
                 <p className='w-5xl text-center'>I am a digital artist and i ahev limited tools and resources to work, if you could be part of my art journey into turning my dreams to realtiy where i create beautiful digital art works</p>
             </section>
-            <section className='flex justify-center items-center gap-4 flex-col p-10'>
-                <h2 className='text-4xl'>How you can help</h2>
+            <section className='flex justify-center items-center gap-4 flex-col p-20'>
+                <h2 className='text-4xl text-center mb-10'>How you can help</h2>
                 <div className='flex gap-6 justify-center items-center'>
                     <div className='flex flex-col bg-white rounded-3xl'>
                         <div className='px-6 py-8 sm:p-10 sm:pb-6'>
                             <div className='grid items-center justify-center w-full grid-cols-1 text-left'>
                                 <WiShowers />
                                 <h3 className='text-sm font-medium tracking-tighter text-gray-600 lg:text-lg'>Check my wishlist</h3>
-                                <p className='mt-2 text-sm text-gray-500'>See what i have been dreaming of</p>
+                                <p className='mt-2 text-sm text-gray-500 w-80'>See what I have been dreaming of to fully focus on my career as a digital artist</p>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ function Home() {
                             <div className='grid items-center justify-center w-full grid-cols-1 text-left'>
                                 <LuSearchCheck />
                                 <h3 className='text-sm font-medium tracking-tighter text-gray-600 lg:text-lg'>See if there's any one that interest's you</h3>
-                                <p className='mt-2 text-sm text-gray-500'>See what i have been dreaming of</p>
+                                <p className='mt-2 text-sm text-gray-500 w-80'>After checking out my wishlist you can see if there's any that yoou'd like to support me with</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ function Home() {
                             <div className='grid items-center justify-center w-full grid-cols-1 text-left'>
                                 <PiMoneyDuotone />
                                 <h3 className='text-sm font-medium tracking-tighter text-gray-600 lg:text-lg'>Make any donation </h3>
-                                <p className='mt-2 text-sm text-gray-500'>donations to any of my account, even as little as 1USD</p>
+                                <p className='mt-2 text-sm text-gray-500'>You can make donations to any of my account, even as little as 1USD</p>
                             </div>
                         </div>
                     </div>
