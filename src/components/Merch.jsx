@@ -68,8 +68,10 @@ function Home() {
                 </div>
             </section>
             <section className='flex justify-center items-center gap-4 flex-col p-10'>
-                <h2 className='text-4xl'>My digital artist wishlist</h2>
-                <p>To help support my journey</p>
+                <div className='mb-16 flex flex-col justify-center items-center gap-4'>
+                    <h2 className='text-4xl'>My digital artist wishlist</h2>
+                    <p>To help support my digital art journey</p>
+                </div>
                 <div className='flex flex-row gap-8'>
                     <div className='w-[300px] h-[250px] -translate-x-1.5 -translate-y-1.5 bg-[#ff66a3] border-3 border-black shadow-[12px_12px_0_#000000] overflow-hidden transition-all duration-300 ease-in-out hover:-translate-x-1.5 hover:translate-y-0'>
                         <div class="text-sm font-black w-full h-8 bg-white px-3 py-1.25 text-black border-b-3 border-black">
