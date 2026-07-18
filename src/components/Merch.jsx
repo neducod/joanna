@@ -11,6 +11,9 @@ import Pencils from "../assets/pencils.jpeg";
 import Tab from "../assets/tablet.jpeg"
 
 
+import Faq from "./Merchfaq";
+
+
 function Home() {
     return (
         <>
@@ -127,6 +130,7 @@ function Home() {
                 </div>
             </section>
             <section>
+                <Faq/>
                 <h2>FAQ</h2>
                 <p>Have any questions about supporting me</p>
                 <div>
