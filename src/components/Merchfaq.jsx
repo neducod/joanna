@@ -4,17 +4,22 @@ const faqData = [
   {
     id: 1,
     question: "How can I help?",
-    answer: "Tailwind CSS is a utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup."
+    answer: "You can support in whatever way works best for you! The most direct way is by donating any amount you're comfortable with right here on this page—every single dollar helps move the bar forward. If you aren't able to donate, sharing this page on social media, telling fellow art lovers, or leaving a kind comment helps immensely. Getting the word out is just as powerful as financial support!."
   },
   {
     id: 2,
     question: "What do you plan on doing with the money donated?",
-    answer: "Tailwind includes built-in transition utilities (like transition-all, duration-300, and ease-in-out) that pair perfectly with React's state changes to create smooth, fluid animations."
+    answer: "Purchasing the drawing tablet and stylus."
   },
   {
     id: 3,
     question: "How will this new art supplies change your art",
     answer: "Beyond just speed, it means better color accuracy, smoother lines, and the ability to work on complex, multi-layered pieces without my software crashing. It directly translates to cleaner, more detailed art for all of you to enjoy."
+  },
+  {
+    id: 4,
+    question: "Are there other ways to support you if I can't donate?",
+    answer: "Absolutely! Sharing this donation page with your friends, ordering an art, or just leaving a nice comment on my socials helps immensely. Emotional support and visibility are just as valuable as financial support!"
   }
 ];
 
