@@ -13,8 +13,8 @@ const faqData = [
   },
   {
     id: 3,
-    question: "How do you plan on getting it?",
-    answer: "Yes. It uses native <button> elements for keyboard navigation (Tab/Enter) and includes aria-expanded attributes to inform screen readers whether a section is open or closed."
+    question: "How will this new art supplies change your art",
+    answer: "Beyond just speed, it means better color accuracy, smoother lines, and the ability to work on complex, multi-layered pieces without my software crashing. It directly translates to cleaner, more detailed art for all of you to enjoy."
   }
 ];
 

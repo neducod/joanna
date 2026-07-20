@@ -56,7 +56,7 @@ export default function ContactForm() {
                     </div>
                 </div>
     </nav>
-    <div className="flex min-h-screen items-center justify-center bg-white px-4 py-12 sm:px-6 lg:px-8">
+    <div className="flex items-center justify-center bg-white px-4 py-12 sm:px-6 lg:px-8">
       <div className="w-full max-w-md space-y-8 rounded-2xl bg-[#cf9fff] p-8 shadow-xl border border-slate-100">
         <div>
           <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-slate-950">
