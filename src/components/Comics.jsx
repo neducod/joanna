@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from './Scrollcomics'
 import { CgMenuRight } from "react-icons/cg";
 
 
@@ -26,7 +27,9 @@ function Home() {
                 </div>
             </nav>
             <section>
-                <div></div>
+                <div>
+                    <ScrollAnimation/>
+                </div>
                 <div>
                     <p>For as long as I can remember, drawing hasn't just been something I do—it’s how I make sense of the world.</p>
                     <p>When I was younger, my ideas always felt bigger than what I could put on paper. I’d spend hours sitting on the floor with whatever pens or pencils I could find, trying to capture the stories, characters, and vibrant worlds living inside my head.</p>
