@@ -35,27 +35,26 @@ export default function ContactForm() {
 
   return (
     <>
-    <nav className='bg-black text-white flex justify-around md:p-10 md:gap-20'>
-    <div>
-                    <h1>Joella's Art</h1>
+        <nav className='bg-black text-white flex justify-around md:p-10 md:gap-20'>
+            <div>
+                <h1>Joella's Art</h1>
+            </div>
+            <div>
+                <div className='md:hidden'>
+                    <CgMenuRight />
                 </div>
-                <div>
-                    <div className='md:hidden'>
-                        <CgMenuRight />
-                    </div>
-                    <div className='hidden md:block'>
-                        <ul className='flex gap-10'>
-                            {/* <FontStyle/> */}
-                            <li>About</li>
-                            <li>Art Journey</li>
-                            <li>Support me</li>
-                            <li>Work with me</li>
-                            <li>Social media</li>
-                            <li>Gallery</li>
-                        </ul>
-                    </div>
+                <div className='hidden md:block'>
+                    <ul className='flex gap-10'>
+                        <li>About</li>
+                        <li>Art Journey</li>
+                        <li>Support me</li>
+                        <li>Work with me</li>
+                        <li>Social media</li>
+                        <li>Gallery</li>
+                    </ul>
                 </div>
-    </nav>
+            </div>
+        </nav>
     <div className="flex items-center justify-center bg-white px-4 py-12 sm:px-6 lg:px-8">
       <div className="w-full max-w-md space-y-8 rounded-2xl bg-[#cf9fff] p-8 shadow-xl border border-slate-100">
         <div>
